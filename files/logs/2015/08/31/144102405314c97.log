@@ -1,0 +1,46 @@
+
+input file
+----------
+		/var/www/files/conversion_queue/144102405314c97.mp4
+
+outputFile
+----------
+		/var/www/files/videos/2015/08/31/144102405314c97
+
+videoDetails
+------------
+		{"size":1958543,"duration":0,"audio_codec":null,"audio_rate":null,"audio_channels":null}
+
+==========================================
+	Low Resolution Conversion
+==========================================
+
+Generating low resolution video
+-------------------------------
+		Starting
+
+command
+-------
+		/usr/local/bin/ffmpeg -i /var/www/files/conversion_queue/144102405314c97.mp4 -vcodec libx264 -acodec libfaac -s 854x480 -preset medium -f mp4 -b:v 300000 -minrate 300000 -maxrate 300000 -b:a 128000 -minrate 128000 -maxrate 128000 -r 25 -ar 22050 /var/www/files/videos/2015/08/31/144102405314c97-sd.mp4
+
+ffmpeg output
+-------------
+		sh: 1: /usr/local/bin/ffmpeg: not found
+
+
+MP4Box Conversion for SD
+------------------------
+		Starting
+
+command
+-------
+		/usr/local/bin/MP4Box -inter 0.5 /var/www/files/videos/2015/08/31/144102405314c97-sd.mp4  -tmp /var/www/files/temp
+
+output
+------
+		sh: 1: /usr/local/bin/MP4Box: not found
+
+
+videoDetails
+------------
+		{"size":1958543,"duration":0,"audio_codec":null,"audio_rate":null,"audio_channels":null}

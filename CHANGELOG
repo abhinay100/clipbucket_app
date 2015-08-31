@@ -1,0 +1,294 @@
+Revision: 3247
+Author: fahad-cb
+Date: Thursday, July 30, 2015 8:37:50 PM
+Message:
+modified : cb 2.7.6 release
+----
+Modified : /trunk/upload/cb_install/clipbucket.php
+Modified : /trunk/upload/cb_install/upgradeable.php
+
+Revision: 3246
+Author: jamil-des
+Date: Thursday, July 30, 2015 8:17:46 PM
+Message:
+nopadding-right added to watch video page : player block
+----
+Modified : /trunk/upload/styles/cb_27/layout/watch_video.html
+
+Revision: 3245
+Author: fahad-cb
+Date: Thursday, July 30, 2015 8:03:47 PM
+Message:
+video file data res issue fixed 
+
+
+----
+Modified : /trunk/upload/player/CB_video_js/cb_video_js.html
+
+Revision: 3244
+Author: fahad-cb
+Date: Thursday, July 30, 2015 7:31:11 PM
+Message:
+html5 player css + cb_vjs preview added
+
+----
+Modified : /trunk/upload/player/CB_html5_player/player_style.css
+Added : /trunk/upload/player/CB_video_js/preview.png
+
+Revision: 3243
+Author: saqibcb
+Date: Thursday, July 30, 2015 7:23:37 PM
+Message:
+YouClip Again!
+----
+Modified : /trunk/upload/upload.php
+
+Revision: 3242
+Author: saqibcb
+Date: Thursday, July 30, 2015 7:23:09 PM
+Message:
+YouClip Condition
+----
+Modified : /trunk/upload/js/functions.js
+
+Revision: 3241
+Author: saqibcb
+Date: Thursday, July 30, 2015 7:19:01 PM
+Message:
+YouClip Anchor added
+----
+Modified : /trunk/upload/styles/cb_27/layout/global_header.html
+
+Revision: 3240
+Author: fahad-cb
+Date: Thursday, July 30, 2015 6:45:57 PM
+Message:
+player + conversion issues 
+
+----
+Modified : /trunk/upload/actions/video_convert.php
+Modified : /trunk/upload/includes/classes/conversion/ffmpeg.class.php
+Modified : /trunk/upload/player/CB_video_js/cb_video_js.html
+Modified : /trunk/upload/player/CB_video_js/cb_video_js.php
+Modified : /trunk/upload/player/CB_video_js/css/video-js.css
+Modified : /trunk/upload/player/CB_video_js/js/cb_vjs_custom.js
+Modified : /trunk/upload/player/CB_video_js/js/video.dev.js
+Modified : /trunk/upload/player/CB_video_js/less/video-js.less
+
+Revision: 3239
+Author: fahad-cb
+Date: Thursday, July 30, 2015 5:28:57 PM
+Message:
+myriad set pro removed 
+
+----
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro.css
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_bold-italic.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_bold-italic.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_bold.eot
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_bold.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_bold.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_medium-italic.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_medium-italic.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_medium.eot
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_medium.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_medium.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_semibold-italic.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_semibold-italic.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_semibold.eot
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_semibold.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_semibold.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_text-italic.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_text-italic.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_text.eot
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_text.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_text.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_thin-italic.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_thin-italic.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_thin.eot
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_thin.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_thin.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_ultralight-italic.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_ultralight-italic.woff
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_ultralight.eot
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_ultralight.ttf
+Deleted : /trunk/upload/player/CB_html5_player/fonts/myriad-set-pro_ultralight.woff
+Modified : /trunk/upload/player/CB_html5_player/html5_player.html
+
+Revision: 3238
+Author: fahad-cb
+Date: Thursday, July 30, 2015 5:20:47 PM
+Message:
+myriad set pro deleted 
+
+----
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro.css
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold-italic.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold-italic.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold.eot
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium-italic.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium-italic.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium.eot
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold-italic.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold-italic.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold.eot
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text-italic.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text-italic.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text.eot
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin-italic.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin-italic.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin.eot
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight-italic.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight-italic.woff
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight.eot
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight.ttf
+Deleted : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight.woff
+
+Revision: 3237
+Author: saqibcb
+Date: Thursday, July 30, 2015 3:34:15 PM
+Message:
+PEX function added
+----
+Modified : /trunk/upload/includes/functions.php
+
+Revision: 3236
+Author: fahad-cb
+Date: Thursday, July 30, 2015 12:39:59 PM
+Message:
+configuration changes for cb_video_js player for cb 2.7.6 release
+
+----
+Modified : /trunk/upload/cb_install/sql/configs.sql
+Added : /trunk/upload/cb_install/sql/upgrade_2.7.6.sql
+
+Revision: 3235
+Author: fahad-cb
+Date: Wednesday, July 29, 2015 7:53:34 PM
+Message:
+image url is defined 
+
+----
+Modified : /trunk/upload/styles/cb_27/layout/global_header.html
+
+Revision: 3234
+Author: fahad-cb
+Date: Wednesday, July 29, 2015 7:36:00 PM
+Message:
+new Cb_video js Beta added
+
+----
+Added : /trunk/upload/player/CB_video_js
+Added : /trunk/upload/player/CB_video_js/cb_video_js.html
+Added : /trunk/upload/player/CB_video_js/cb_video_js.php
+Added : /trunk/upload/player/CB_video_js/css
+Added : /trunk/upload/player/CB_video_js/css/cb_vjs_res.css
+Added : /trunk/upload/player/CB_video_js/css/font
+Added : /trunk/upload/player/CB_video_js/css/font/cb_vjs_res.css
+Added : /trunk/upload/player/CB_video_js/css/font/vjs.eot
+Added : /trunk/upload/player/CB_video_js/css/font/vjs.svg
+Added : /trunk/upload/player/CB_video_js/css/font/vjs.ttf
+Added : /trunk/upload/player/CB_video_js/css/font/vjs.woff
+Added : /trunk/upload/player/CB_video_js/css/video-js.css
+Added : /trunk/upload/player/CB_video_js/css/video-js.min.css
+Added : /trunk/upload/player/CB_video_js/dfdfdfdfd.swf
+Added : /trunk/upload/player/CB_video_js/fonts
+Added : /trunk/upload/player/CB_video_js/fonts/icomoon.eot
+Added : /trunk/upload/player/CB_video_js/fonts/icomoon.svg
+Added : /trunk/upload/player/CB_video_js/fonts/icomoon.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/icomoon.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro.css
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold-italic.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold-italic.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold.eot
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_bold.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium-italic.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium-italic.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium.eot
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_medium.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold-italic.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold-italic.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold.eot
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_semibold.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text-italic.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text-italic.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text.eot
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_text.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin-italic.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin-italic.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin.eot
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_thin.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight-italic.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight-italic.woff
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight.eot
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight.ttf
+Added : /trunk/upload/player/CB_video_js/fonts/myriad-set-pro_ultralight.woff
+Added : /trunk/upload/player/CB_video_js/js
+Added : /trunk/upload/player/CB_video_js/js/cb_vjs_custom.js
+Added : /trunk/upload/player/CB_video_js/js/cb_vjs_res.js
+Added : /trunk/upload/player/CB_video_js/js/video.dev.js
+Added : /trunk/upload/player/CB_video_js/js/video.js
+Added : /trunk/upload/player/CB_video_js/lang
+Added : /trunk/upload/player/CB_video_js/lang/ar.js
+Added : /trunk/upload/player/CB_video_js/lang/bg.js
+Added : /trunk/upload/player/CB_video_js/lang/ca.js
+Added : /trunk/upload/player/CB_video_js/lang/cs.js
+Added : /trunk/upload/player/CB_video_js/lang/de.js
+Added : /trunk/upload/player/CB_video_js/lang/es.js
+Added : /trunk/upload/player/CB_video_js/lang/fr.js
+Added : /trunk/upload/player/CB_video_js/lang/hu.js
+Added : /trunk/upload/player/CB_video_js/lang/it.js
+Added : /trunk/upload/player/CB_video_js/lang/ja.js
+Added : /trunk/upload/player/CB_video_js/lang/ko.js
+Added : /trunk/upload/player/CB_video_js/lang/nl.js
+Added : /trunk/upload/player/CB_video_js/lang/pt-BR.js
+Added : /trunk/upload/player/CB_video_js/lang/ru.js
+Added : /trunk/upload/player/CB_video_js/lang/tr.js
+Added : /trunk/upload/player/CB_video_js/lang/uk.js
+Added : /trunk/upload/player/CB_video_js/lang/vi.js
+Added : /trunk/upload/player/CB_video_js/lang/zh-CN.js
+Added : /trunk/upload/player/CB_video_js/lang/zh-TW.js
+Added : /trunk/upload/player/CB_video_js/less
+Added : /trunk/upload/player/CB_video_js/less/video-js.less
+Added : /trunk/upload/player/CB_video_js/video.novtt.dev.js
+Added : /trunk/upload/player/CB_video_js/video.novtt.js
+
+Revision: 3233
+Author: saqibcb
+Date: Wednesday, July 29, 2015 3:21:54 PM
+Message:
+
+----
+Modified : /trunk/upload/styles/cb_27/layout/global_header.html
+
+Revision: 3232
+Author: saqibcb
+Date: Wednesday, July 29, 2015 3:18:15 PM
+Message:
+Included files uncommented 
+----
+Modified : /trunk/upload/styles/cb_27/layout/global_header.html
+
+Revision: 3231
+Author: saqibcb
+Date: Monday, July 27, 2015 4:25:02 PM
+Message:
+Ugly title issue resolved 
+----
+Modified : /trunk/upload/styles/cb_27/layout/watch_video.html
+
